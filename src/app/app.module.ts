@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
+import { CartPage } from "./pages/cart.page";
 import { AppComponent } from "./app.component";
-import { ChartPage } from "./pages/chart.page";
 import { LoginPage } from "./pages/login.page";
 import { AdminPage } from "./pages/admin.page";
 import { ReactiveFormsModule } from "@angular/forms";
@@ -13,7 +13,7 @@ import { NavbarComponent } from "./components/navbar.component";
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 
 @NgModule({
-  declarations: [ChartPage, LoginPage, ProductsPage, AppComponent, ProdDetailPage, NavbarComponent, AdminPage, NotFoundPage],
+  declarations: [CartPage, LoginPage, ProductsPage, AppComponent, ProdDetailPage, NavbarComponent, AdminPage, NotFoundPage],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],

@@ -108,19 +108,5 @@
       "price": 79.99,
       "description": "The Legend of Zelda™: Breath of the Wild game packs countless hours of play into a vast world of discovery. That makes it an ideal foundation for more adventures! This special bundle comes with the full game for the Nintendo Switch™ system and the Expansion Pass, which grants access to three new treasure chests, The Master Trials DLC Pack 1, and The Champions Ballad DLC Pack 2."
     }
-  ],
-  "prices": [
-    {
-      "type": "1-Giorno",
-      "price": 25.99
-    },
-    {
-      "type": "2-Giorni",
-      "price": 9.99
-    },
-    {
-      "type": "5-Giorni",
-      "price": 2.99
-    }
   ]
 }

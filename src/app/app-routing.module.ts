@@ -1,11 +1,11 @@
 import { NgModule } from "@angular/core";
-import { RouterModule, Routes } from "@angular/router";
+import { CartPage } from "./pages/cart.page";
 import { AdminPage } from "./pages/admin.page";
-import { ChartPage } from "./pages/chart.page";
 import { LoginPage } from "./pages/login.page";
-import { NotFoundPage } from "./pages/not-found.page";
-import { ProdDetailPage } from "./pages/prod-detail.page";
 import { ProductsPage } from "./pages/products.page";
+import { NotFoundPage } from "./pages/not-found.page";
+import { RouterModule, Routes } from "@angular/router";
+import { ProdDetailPage } from "./pages/prod-detail.page";
 
 const routes: Routes = [
   {
@@ -18,7 +18,7 @@ const routes: Routes = [
   },
   {
     path: "chart",
-    component: ChartPage,
+    component: CartPage,
   },
   {
     path: "admin",
