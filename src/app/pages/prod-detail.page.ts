@@ -24,7 +24,7 @@ import { ProductsService } from "../services/products.service";
             <span [ngClass]="textCat(product)">| </span>{{ product.platform | titlecase }}
           </p>
           <h1>{{ product.name }}</h1>
-          <p class="h5 mt-2">Price: &euro; {{ product.price }}</p>
+          <p class="h5 mt-2">Price: {{ product.price | currency }}</p>
           <button (click)="cartProduct(product)" type="button" class="btn btn-danger form-control mt-5">Add to cart</button>
         </div>
       </div>

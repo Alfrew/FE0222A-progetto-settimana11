@@ -6,4 +6,5 @@ export interface Product {
   platform: string;
   price: number;
   description: string;
+  code: string;
 }

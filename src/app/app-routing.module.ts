@@ -29,14 +29,14 @@ const routes: Routes = [
     component: LoginPage,
   },
   {
-    path: "",
+    path: "**",
     redirectTo: "products",
     pathMatch: "full",
   },
-  {
-    path: "**",
-    component: NotFoundPage,
-  },
+  // {
+  //   path: "**",
+  //   component: NotFoundPage,
+  // },
 ];
 
 @NgModule({
