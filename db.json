@@ -2,27 +2,111 @@
   "products": [
     {
       "id": 1,
-      "name": "Phone XL",
-      "price": 799,
-      "description": "Uno dei migliori smartphone in commercio, con schermo ampio"
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/k/kirby-and-the-forgotten-land-switch/hero",
+      "name": "Kirby™ and the Forgotten Land",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Float off on an all-new adventure as the powerful puffball, Kirby. Explore in 3D stages as you discover a mysterious world with abandoned structures from a past civilization—like a shopping mall?! Copy enemies' abilities like the new Drill and Ranger and use them to attack, explore your surroundings, and save the kidnapped Waddle Dees from the ferocious Beast Pack alongside the mysterious Elfilin. Hope you're hungry for an unforgettable adventure!"
     },
     {
       "id": 2,
-      "name": "Phone Mini",
-      "price": 699,
-      "description": "Ha un'ottima fotocamera anche se piccolo"
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/dlc/switch-dlc/splatoon-2-plus-nintendo-switch-online-individual-membership-12-months-dlc/bundles/splatoon-2-octo-expansion/image",
+      "name": "Splatoon™ 2: Octo Expansion",
+      "category": "DLC",
+      "platform": "Nintendo Switch",
+      "price": 19.99,
+      "description": "Play as an Octoling in this DLC*/game add-on content that features a full-on single-player adventure spanning 80 missions starring Agent 8, a character who awakens on a dark subway platform. Navigate this mysterious underground test facility in a desperate battle to reach the surface of Inkopolis. Escape from these twisted depths, and you'll be able to join multiplayer** matches as an Octoling!"
+    },
+    {
+      "id": 3,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/m/mario-strikers-battle-league-switch/hero",
+      "name": "Mario Strikers™: Battle League",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Introducing Strike, a 5-on-5, soccer-like sport with no rules—do whatever it takes to win! Get gritty and try to score the most goals by tackling enemies, using items, and pulling off score-boosting Hyper Strikes. Super Mario series mainstays like Peach, Toad, and Yoshi put their cleats (and stats) to the pitch and will stop at nothing to score. Customize your characters with gear that can augment their stats and appearance. Take the carnage online* or pass the ball to players locally**—just look out for the electric fence. "
+    },
+    {
+      "id": 4,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/dlc/switch-dlc/monster-hunter-rise-dlc/individual/monster-hunter-rise-sunbreak/image",
+      "name": "Monster Hunter Rise: Sunbreak",
+      "category": "DLC",
+      "platform": "Nintendo Switch",
+      "price": 39.99,
+      "description": "The world of Monster Hunter Rise gets bigger and deeper with this massive expansion featuring new monsters, new locales and more! NOTE: You must own Monster Hunter Rise in order to play this expansion. Sunbreak content is accessible after completion of the 7-star Hub quest “Serpent Goddess of Thunder”."
+    },
+    {
+      "id": 5,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/s/splatoon-3-switch/hero",
+      "name": "Splatoon™ 3",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Enter the Splatlands, a sun-scorched desert inhabited by battle-hardened Inklings and Octolings. Splatsville, the city of chaos, is the adrenaline-fueled heart of this dusty wasteland. Even in this desolate environment, Turf War* reigns supreme and battles rage in new stages located in the surrounding wilds. Dynamic new moves help these fighters dodge attacks and cover more ground, along with a new bow-shaped weapon to sling ink."
+    },
+    {
+      "id": 6,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/x/xenoblade-chronicles-3-switch/hero",
+      "name": "Xenoblade Chronicles™ 3",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Join Noah and Mio, members of the two opposing nations of Keves and Agnus, on a heartfelt journey to end the cycle of violence. A group of six characters from these nations join together to awaken the colonies of Aionios and expose the true threat both nations face. Traverse massive, fantastical landscapes as you learn how this game connects to the larger Xenoblade Chronicles™ story. "
+    },
+    {
+      "id": 7,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/f/fire-emblem-warriors-three-hopes-switch/hero",
+      "name": "Fire Emblem Warriors: Three Hopes",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Step into the shoes of Shez, as they meet Edelgard, Dimitri, Claude, and other Fire Emblem: Three Houses characters as you fight for the future of Fódlan. Align with a leader to build and command an army in 1 vs. 1,000-style battles and deep strategy. The house you choose will bring you through one of three compelling stories, each with a different outcome. Each Fire Emblem: Three Houses character you recruit on these journeys has a distinct set of flashy combos and powerful specials that can cut through hordes of enemies."
+    },
+    {
+      "id": 8,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero",
+      "name": "Pokémon™ Legends: Arceus",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Get ready for a new kind of grand, Pokémon adventure in Pokémon™ Legends: Arceus, a new game from Game Freak that blends action and exploration with the RPG roots of the Pokémon series."
+    },
+    {
+      "id": 9,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/m/metroid-dread-switch/hero",
+      "name": "Metroid™ Dread",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Upon investigating a mysterious transmission on Planet ZDR, Samus faces a mysterious foe that traps her in this dangerous world. The remote planet has been overrun by vicious alien lifeforms and murderous robots called E.M.M.I. Hunt or be hunted as you make your way through a labyrinth of enemies in Samus' most intense side-scrolling adventure yet."
     },
     {
       "id": 10,
-      "name": "Phone Mini",
-      "price": 699,
-      "description": "Ha un'ottima fotocamera anche se piccolo"
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/dlc/switch-dlc/hyrule-warriors-age-of-calamity-dlc/rom-bundle/hyrule-warriors-age-of-calamity-plus-hyrule-warriors-age-of-calamity-expansion-pass/image",
+      "name": "Hyrule Warriors: Age of Calamity + Hyrule Warriors: Age of Calamity Expansion Pass",
+      "category": "Bundle",
+      "platform": "Nintendo Switch",
+      "price": 79.99,
+      "description": "This bundle includes the Hyrule Warriors: Age of Calamity game for the Nintendo Switch™ system, along with the Expansion Pass DLC that offers two waves of downloadable content. In Hyrule Warriors: Age of Calamity, you'll see Hyrule 100 years before the Legend of Zelda™: Breath of the Wild™ game and experience the events of the Great Calamity. Join the struggle that brought Hyrule to its knees. Battle hordes of Hyrule's most formidable foes, from barbaric Bokoblins to towering Lynels. In addition to Link and Zelda, take control of characters like the four Champions and a young Impa. Use their distinct abilities to carve through hundreds of enemies to save Hyrule from the impending Calamity."
     },
     {
-      "name": "Phone Mini",
-      "price": 699,
-      "description": "Ha un'ottima fotocamera anche se piccolo",
-      "id": 11
+      "id": 11,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_700/v1/ncom/en_US/games/switch/t/the-legend-of-zelda-skyward-sword-hd-switch/hero",
+      "name": "The Legend of Zelda™: Skyward Sword HD",
+      "category": "Game",
+      "platform": "Nintendo Switch",
+      "price": 59.99,
+      "description": "Descend from the sky to the dangerous world below in this high-flying quest. Your adventure will lead you through perilous dungeons packed with puzzles. Each item you receive will open up even more adventure—uncover a hidden area with the flying Beetle or find a clever way to hinder enemies with a whip. Whether you are scouring for secrets, getting in some sword practice, or upgrading equipment, forge your own path in the Legend of Zelda™: Skyward Sword HD game."
+    },
+    {
+      "id": 12,
+      "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/dlc/switch-dlc/the-legend-of-zelda-breath-of-the-wild-dlc/rom-bundle/the-legend-of-zelda-breath-of-the-wild-and-the-legend-of-zelda-breath-of-the-wild-expansion-pass-bundle/image",
+      "name": "The Legend of Zelda™: Breath of the Wild and The Legend of Zelda™: Breath of the Wild Expansion Pass Bundle ",
+      "category": "Bundle",
+      "platform": "Nintendo Switch",
+      "price": 79.99,
+      "description": "The Legend of Zelda™: Breath of the Wild game packs countless hours of play into a vast world of discovery. That makes it an ideal foundation for more adventures! This special bundle comes with the full game for the Nintendo Switch™ system and the Expansion Pass, which grants access to three new treasure chests, The Master Trials DLC Pack 1, and The Champions Ballad DLC Pack 2."
     }
   ],
   "prices": [

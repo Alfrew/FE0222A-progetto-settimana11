@@ -6,13 +6,14 @@ import { ProductsService } from "../services/products.service";
   template: `
     <div class="container mt-5">
       <div class="row justify-content-evenly">
-        <div class="card col-4 mb-5" style="width: 18rem" *ngFor="let product of products">
-          <!-- <img src="{{ product.url }}" class="card-img-top" alt="..." /> -->
+        <div class="card mb-5" style="width: 18rem" *ngFor="let product of products">
+          <img src="{{ product.url }}" class="card-img-top" alt="..." />
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">{{ product.name }}</h5>
-            <div class="align-self-end mt-auto mx-auto">
-              <!-- <button (click)="delPhoto(photo.id)" type="button" class="btn btn-danger me-3">Delete</button> -->
-              <!-- <button (click)="likePhoto(photo.id)" type="button" class="btn btn-success">Like</button> -->
+            <p class="card-text"><span class="text-danger">| </span>{{ product.platform | titlecase }}</p>
+            <div class="d-flex mt-auto justify-content-evenly">
+              <button class="btn btn-secondary" [routerLink]="['/products', product.id]">Details</button>
+              <button type="button" class="btn btn-danger">Add to cart</button>
             </div>
           </div>
         </div>
