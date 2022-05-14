@@ -10,6 +10,18 @@ import { ProductsService } from "../services/products.service";
   template: `
     <div class="container">
       <h2 class="display-5 text-center">Product details</h2>
+      <!-- Spinner loading -->
+      <div *ngIf="!product && loading" class="mt-5 d-flex justify-content-center">
+        <div class="spinner-border text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      <!-- Error message -->
+      <div class="container mt-5 text-center text-muted" *ngIf="!product && !loading">
+        <h3>Product not found</h3>
+        <p>Maybe it doesn't exist for now</p>
+      </div>
+
       <div *ngIf="product" class="row g-5">
         <!-- Left col with Image and description -->
         <div class="col-6">
@@ -33,11 +45,15 @@ import { ProductsService } from "../services/products.service";
   styles: [],
 })
 export class ProdDetailPage implements OnInit {
+  loading = true;
   product!: Product | undefined;
   sub!: Subscription;
 
-  constructor(private router: ActivatedRoute, private productsSrv: ProductsService, private cartSrv: CartService, private styleSrv: StyleService) {}
-
+  constructor(private router: ActivatedRoute, private productsSrv: ProductsService, private cartSrv: CartService, private styleSrv: StyleService) {
+    setTimeout(() => {
+      this.loading = false;
+    }, 2000);
+  }
   /**
    * Get the specified product by the id in the url
    */

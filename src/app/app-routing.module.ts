@@ -6,6 +6,8 @@ import { ProductsPage } from "./pages/products.page";
 import { NotFoundPage } from "./pages/not-found.page";
 import { RouterModule, Routes } from "@angular/router";
 import { ProdDetailPage } from "./pages/prod-detail.page";
+import { PutFormComponent } from "./components/put-form.component";
+import { PostFormComponent } from "./components/post-form.component";
 
 const routes: Routes = [
   {
@@ -25,18 +27,26 @@ const routes: Routes = [
     component: AdminPage,
   },
   {
+    path: "admin/newProduct",
+    component: PostFormComponent,
+  },
+  {
+    path: "admin/:id",
+    component: PutFormComponent,
+  },
+  {
     path: "login",
     component: LoginPage,
   },
   {
-    path: "**",
+    path: "",
     redirectTo: "products",
     pathMatch: "full",
   },
-  // {
-  //   path: "**",
-  //   component: NotFoundPage,
-  // },
+  {
+    path: "**",
+    component: NotFoundPage,
+  },
 ];
 
 @NgModule({

@@ -8,6 +8,12 @@ import { ProductsService } from "../services/products.service";
 @Component({
   template: `
     <div class="container mt-5">
+      <!-- Spinner loading -->
+      <div *ngIf="!products" class="d-flex justify-content-center">
+        <div class="spinner-border text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
       <div class="row justify-content-evenly">
         <!-- Products cards -->
         <div class="card mb-5" style="width: 18rem" *ngFor="let product of products">
@@ -31,7 +37,7 @@ import { ProductsService } from "../services/products.service";
   styles: [],
 })
 export class ProductsPage implements OnInit {
-  products: Product[] = [];
+  products!: Product[];
   sub!: Subscription;
 
   constructor(private productsSrv: ProductsService, private cartSrv: CartService, private styleSrv: StyleService) {}

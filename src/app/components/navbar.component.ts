@@ -14,7 +14,7 @@ import { CartService } from "../services/cart.service";
               <a class="nav-link d-inline-block mt-2" routerLink="/products" routerLinkActive="active">Products</a>
             </li>
             <!-- Admin page -->
-            <li class="nav-item" *ngIf="false">
+            <li class="nav-item">
               <a class="nav-link d-inline-block mt-2" routerLink="/admin" routerLinkActive="active">Admin</a>
             </li>
             <!-- Login -->
